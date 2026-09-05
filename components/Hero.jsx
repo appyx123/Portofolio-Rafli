@@ -86,7 +86,7 @@ export default function Hero() {
         >
           <div className="relative w-full max-w-[320px] sm:max-w-[380px]">
             <img
-              src="/images/profile.jpg"
+              src="/images/profile.png"
               alt={personalInfo.name}
               className="w-full h-auto object-contain select-none grayscale contrast-[1.08] brightness-[0.98] [mask-image:linear-gradient(to_bottom,black_75%,transparent_100%)]"
             />
