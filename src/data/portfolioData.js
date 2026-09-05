@@ -13,7 +13,7 @@ export const portfolioData = {
       location: "Makassar, South Sulawesi, Indonesia",
       linkedin: "https://www.linkedin.com/in/muhammad-rafli-ai",
       instagram: "https://www.instagram.com/appy_6122/",
-      github: "https://github.com/rafli-ai",
+      github: "https://github.com/appyx123",
       availability: "Available for Projects & Research",
       summary: "Informatics Engineering student specializing in Artificial Intelligence (AI) and Internet of Things (IoT) integration. Experienced in leading applied research and end-to-end system development, from AI-driven financial risk modeling to TinyML-based medical device prototyping. Passionate about building scalable, data-driven solutions that drive digital transformation."
     },
@@ -293,7 +293,7 @@ export const portfolioData = {
       location: "Makassar, Sulawesi Selatan, Indonesia",
       linkedin: "https://www.linkedin.com/in/muhammad-rafli-ai",
       instagram: "https://www.instagram.com/appy_6122/",
-      github: "https://github.com/rafli-ai",
+      github: "https://github.com/appyx123",
       availability: "Tersedia untuk Riset & Proyek Baru",
       summary: "Mahasiswa Teknik Informatika yang berspesialisasi dalam integrasi Artificial Intelligence (AI) dan Internet of Things (IoT). Berpengalaman dalam memimpin riset terapan dan pengembangan sistem end-to-end, mulai dari pemodelan risiko keuangan berbasis AI hingga pembuatan prototipe perangkat medis berbasis TinyML. Bersemangat dalam membangun solusi skalabel berbasis data untuk mendorong transformasi digital."
     },
