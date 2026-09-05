@@ -101,7 +101,7 @@ export default function ContactAndFooter() {
         {/* Sub-Footer */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-8 border-t border-white/5 text-xs font-mono text-zinc-500">
           <div>
-            © {new Date().getFullYear()} {personalInfo.name} · {ui.contact.footerNote}
+            © {new Date().getFullYear()} {personalInfo.name}
           </div>
 
           <div className="flex items-center gap-4">
