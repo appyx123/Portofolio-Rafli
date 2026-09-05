@@ -37,22 +37,32 @@ export default function Experience() {
           transition={{ duration: 0.5 }}
           className="mb-16 p-6 sm:p-8 rounded-2xl border border-white/10 bg-zinc-950/80 relative overflow-hidden"
         >
-          <div className="flex items-center gap-2 font-mono text-xs text-emerald-400 uppercase tracking-widest mb-3">
+          <div className="flex items-center gap-2 font-mono text-xs text-emerald-400 uppercase tracking-widest mb-4">
             <GraduationCap size={15} />
             <span>{ui.experience.academicKicker}</span>
           </div>
 
-          <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
-            <div>
-              <h3 className="text-xl sm:text-2xl font-medium tracking-tight text-zinc-100">
-                {education[0].degree}
-              </h3>
-              <p className="text-sm font-mono text-emerald-400 mt-1">
-                {education[0].institution}
-              </p>
-              <p className="text-xs text-zinc-400 mt-2">
-                {education[0].description}
-              </p>
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6">
+            <div className="flex items-start sm:items-center gap-4 sm:gap-5">
+              <div className="relative shrink-0 w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-zinc-900/90 border border-white/10 p-2 sm:p-2.5 flex items-center justify-center shadow-lg">
+                <img
+                  src={education[0].logo || "/images/UMI.png"}
+                  alt={education[0].institution}
+                  className="w-full h-full object-contain select-none filter drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]"
+                />
+              </div>
+
+              <div>
+                <h3 className="text-xl sm:text-2xl font-medium tracking-tight text-zinc-100">
+                  {education[0].degree}
+                </h3>
+                <p className="text-sm font-mono text-emerald-400 mt-1">
+                  {education[0].institution}
+                </p>
+                <p className="text-xs text-zinc-400 mt-2">
+                  {education[0].description}
+                </p>
+              </div>
             </div>
 
             <div className="sm:text-right shrink-0">

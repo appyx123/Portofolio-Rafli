@@ -26,6 +26,7 @@ export const portfolioData = {
         degree: "Bachelor of Informatics Engineering",
         duration: "Jun 2023 - Mar 2027",
         gpa: "3.96 / 4.00",
+        logo: "/images/UMI.png",
         description: "Specialization in Artificial Intelligence (AI) and Internet of Things (IoT)."
       }
     ],
@@ -307,6 +308,7 @@ export const portfolioData = {
         degree: "Sarjana Teknik Informatika (S.Kom)",
         duration: "Jun 2023 - Mar 2027",
         gpa: "3.96 / 4.00",
+        logo: "/images/UMI.png",
         description: "Spesialisasi dalam Kecerdasan Buatan (AI) dan Internet of Things (IoT)."
       }
     ],
