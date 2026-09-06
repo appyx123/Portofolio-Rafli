@@ -86,18 +86,24 @@ export default function Projects() {
 
                 {/* Title & Link */}
                 <h3 className="text-xl font-medium tracking-tight text-zinc-100 group-hover:text-white transition-colors flex items-start justify-between gap-2">
-                  <a
-                    href={project.link || '#'}
-                    target={project.link && project.link !== '#' ? '_blank' : undefined}
-                    rel="noreferrer"
-                    className="hover:underline flex-1"
-                  >
-                    {project.title}
-                  </a>
-                  <ArrowUpRight
-                    size={18}
-                    className="text-zinc-500 transition-all group-hover:text-emerald-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 shrink-0 mt-1"
-                  />
+                  {project.link && project.link !== '#' ? (
+                    <>
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="hover:underline flex-1"
+                      >
+                        {project.title}
+                      </a>
+                      <ArrowUpRight
+                        size={18}
+                        className="text-zinc-500 transition-all group-hover:text-emerald-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 shrink-0 mt-1"
+                      />
+                    </>
+                  ) : (
+                    <span className="flex-1">{project.title}</span>
+                  )}
                 </h3>
 
                 {/* Description */}

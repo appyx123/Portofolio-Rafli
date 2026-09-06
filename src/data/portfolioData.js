@@ -108,35 +108,6 @@ export const portfolioData = {
     projects: [
       {
         id: 1,
-        title: "PULMO-SENSE — Smart Stethoscope Prototype (TinyML)",
-        techStack: ["ESP32-S3", "TinyML", "C++", "MEMS Sensors", "Edge Computing"],
-        duration: "Jan 2026 - Apr 2026",
-        description: "Designed a hardware prototype utilizing ESP32-S3 and MEMS sensors for early detection of respiratory diseases. Deployed TinyML models directly onto the microcontroller for real-time, offline edge computing inference.",
-        link: "#",
-        image: "/images/projects/stethoscope.jpg"
-      },
-      {
-        id: 2,
-        title: "TB Care AI — Multimodal Screening",
-        techStack: ["Python", "Deep Learning", "Streamlit", "CNN & LSTM", "Scikit-Learn", "Audio Processing"],
-        duration: "2026",
-        description: "An advanced multimodal medical screening prototype combining Deep Learning (CNN + LSTM) for cough audio analysis with rule-based clinical data evaluation to generate accurate health risk scores.",
-        link: "https://github.com/appyx123/TB-Care-AI",
-        github: "https://github.com/appyx123/TB-Care-AI",
-        image: ""
-      },
-      {
-        id: 3,
-        title: "FoodLens – On-Device Food Recognition",
-        techStack: ["Flutter", "TensorFlow Lite", "TheMealDB API", "Dart"],
-        duration: "Jul 2026 - Present",
-        description: "Developed a Flutter-based mobile application that performs on-device food recognition. Captures food images, preprocesses them, and classifies them locally without cloud inference. Automatically retrieves related recipes using TheMealDB API. Built using background isolates for responsive inference and Provider for state management.",
-        link: "https://github.com/appyx123/FoodLens-Flutter",
-        github: "https://github.com/appyx123/FoodLens-Flutter",
-        image: "/images/projects/foodlens.jpg"
-      },
-      {
-        id: 4,
         title: "Real-Time Thumb & Finger Detection",
         techStack: ["MediaPipe", "JavaScript", "HTML5 Canvas", "WebRTC", "Tailwind CSS", "Computer Vision"],
         duration: "2026",
@@ -146,17 +117,7 @@ export const portfolioData = {
         image: "/images/projects/thumb-detection.png"
       },
       {
-        id: 5,
-        title: "FIKOM Certification Center (FCC)",
-        techStack: ["Laravel", "PHP", "MySQL", "Tailwind CSS", "Midtrans API", "Vite"],
-        duration: "2026",
-        description: "An official institutional certification portal built with Laravel, featuring seamless OTP authentication, Midtrans payment gateway integration, QR-code attendance scanning, and automated digital certificate generation.",
-        link: "https://github.com/lastWannn/FikomCertificationCenter",
-        github: "https://github.com/lastWannn/FikomCertificationCenter",
-        image: ""
-      },
-      {
-        id: 6,
+        id: 2,
         title: "COGURA Coffee — Premium Arabica Storefront",
         techStack: ["Next.js", "TypeScript", "Tailwind CSS", "React", "i18n", "WhatsApp"],
         duration: "2026",
@@ -165,6 +126,47 @@ export const portfolioData = {
         live: "https://cogura.store/en",
         github: "https://github.com/appyx123/cogura.web",
         image: "/images/projects/cogura.webp"
+      }
+      /*
+      ,
+      {
+        id: 3,
+        title: "PULMO-SENSE — Smart Stethoscope Prototype (TinyML)",
+        techStack: ["ESP32-S3", "TinyML", "C++", "MEMS Sensors", "Edge Computing"],
+        duration: "Jan 2026 - Apr 2026",
+        description: "Designed a hardware prototype utilizing ESP32-S3 and MEMS sensors for early detection of respiratory diseases. Deployed TinyML models directly onto the microcontroller for real-time, offline edge computing inference.",
+        link: "https://github.com/appyx123",
+        image: "/images/projects/stethoscope.jpg"
+      },
+      {
+        id: 4,
+        title: "TB Care AI — Multimodal Screening",
+        techStack: ["Python", "Deep Learning", "Streamlit", "CNN & LSTM", "Scikit-Learn", "Audio Processing"],
+        duration: "2026",
+        description: "An advanced multimodal medical screening prototype combining Deep Learning (CNN + LSTM) for cough audio analysis with rule-based clinical data evaluation to generate accurate health risk scores.",
+        link: "https://github.com/appyx123/TB-Care-AI",
+        github: "https://github.com/appyx123/TB-Care-AI",
+        image: ""
+      },
+      {
+        id: 5,
+        title: "FoodLens – On-Device Food Recognition",
+        techStack: ["Flutter", "TensorFlow Lite", "TheMealDB API", "Dart"],
+        duration: "Jul 2026 - Present",
+        description: "Developed a Flutter-based mobile application that performs on-device food recognition. Captures food images, preprocesses them, and classifies them locally without cloud inference. Automatically retrieves related recipes using TheMealDB API. Built using background isolates for responsive inference and Provider for state management.",
+        link: "https://github.com/appyx123/FoodLens-Flutter",
+        github: "https://github.com/appyx123/FoodLens-Flutter",
+        image: "/images/projects/foodlens.jpg"
+      },
+      {
+        id: 6,
+        title: "FIKOM Certification Center (FCC)",
+        techStack: ["Laravel", "PHP", "MySQL", "Tailwind CSS", "Midtrans API", "Vite"],
+        duration: "2026",
+        description: "An official institutional certification portal built with Laravel, featuring seamless OTP authentication, Midtrans payment gateway integration, QR-code attendance scanning, and automated digital certificate generation.",
+        link: "https://github.com/lastWannn/FikomCertificationCenter",
+        github: "https://github.com/lastWannn/FikomCertificationCenter",
+        image: ""
       },
       {
         id: 7,
@@ -175,28 +177,6 @@ export const portfolioData = {
         link: "https://github.com/Justrifkyy/NetManagement",
         github: "https://github.com/Justrifkyy/NetManagement",
         image: "/images/projects/netmanager.jpg"
-      }
-      /*
-      ,
-      {
-        id: 8,
-        title: "OurOffice — Linux-First Office Suite",
-        techStack: ["Rust", "Qt 6 / QML", "Cargo", "CMake", "Desktop App", "Linux"],
-        duration: "2026",
-        description: "A high-performance, open-source desktop office suite engineered natively for Linux ecosystems, featuring a memory-safe Rust core, Qt/QML interfaces, and an AI-agent-first development architecture.",
-        link: "https://github.com/appyx123/OurOffice-Linux",
-        github: "https://github.com/appyx123/OurOffice-Linux",
-        image: ""
-      },
-      {
-        id: 9,
-        title: "Monitoring Praktikum Laboratorium",
-        techStack: ["PHP", "MySQL", "MVC Architecture", "JavaScript", "HTML5/CSS3", "Academic System"],
-        duration: "2026",
-        description: "A web-based academic monitoring system utilizing raw PHP and MVC architecture for managing laboratory schedules, teaching assistants, lecturers, and mentoring sessions.",
-        link: "https://github.com/TUBES-CA-25/Monitoring-Praktikum-Kelompok-4",
-        github: "https://github.com/TUBES-CA-25/Monitoring-Praktikum-Kelompok-4",
-        image: ""
       }
       */
     ],
@@ -460,35 +440,6 @@ export const portfolioData = {
     projects: [
       {
         id: 1,
-        title: "PULMO-SENSE — Prototipe Stetoskop Pintar (TinyML)",
-        techStack: ["ESP32-S3", "TinyML", "C++", "MEMS Sensors", "Edge Computing"],
-        duration: "Jan 2026 - Apr 2026",
-        description: "Merancang prototipe perangkat keras menggunakan ESP32-S3 dan sensor MEMS untuk deteksi dini anomali pernapasan. Menjalankan model TinyML terkuantisasi langsung pada mikrokontroler untuk inferensi real-time tanpa ketergantungan internet.",
-        link: "#",
-        image: "/images/projects/stethoscope.jpg"
-      },
-      {
-        id: 2,
-        title: "TB Care AI — Multimodal Screening",
-        techStack: ["Python", "Deep Learning", "Streamlit", "CNN & LSTM", "Scikit-Learn", "Audio Processing"],
-        duration: "2026",
-        description: "Prototipe skrining medis multimodal tingkat lanjut yang menggabungkan Deep Learning (CNN + LSTM) untuk analisis audio batuk dengan evaluasi data klinis berbasis aturan guna menghasilkan skor risiko kesehatan yang akurat.",
-        link: "https://github.com/appyx123/TB-Care-AI",
-        github: "https://github.com/appyx123/TB-Care-AI",
-        image: ""
-      },
-      {
-        id: 3,
-        title: "FoodLens – Pengenalan Makanan On-Device",
-        techStack: ["Flutter", "TensorFlow Lite", "TheMealDB API", "Dart"],
-        duration: "Jul 2026 - Sekarang",
-        description: "Mengembangkan aplikasi mobile berbasis Flutter untuk pengenalan makanan langsung di perangkat (on-device). Menangkap gambar makanan, memproses data lokal tanpa latensi cloud, dan secara otomatis mencocokkan resep via TheMealDB API. Menggunakan background isolates untuk inferensi responsif dan Provider untuk manajemen state.",
-        link: "https://github.com/appyx123/FoodLens-Flutter",
-        github: "https://github.com/appyx123/FoodLens-Flutter",
-        image: "/images/projects/foodlens.jpg"
-      },
-      {
-        id: 4,
         title: "Real-Time Thumb & Finger Detection",
         techStack: ["MediaPipe", "JavaScript", "HTML5 Canvas", "WebRTC", "Tailwind CSS", "Computer Vision"],
         duration: "2026",
@@ -498,17 +449,7 @@ export const portfolioData = {
         image: "/images/projects/thumb-detection.png"
       },
       {
-        id: 5,
-        title: "FIKOM Certification Center (FCC)",
-        techStack: ["Laravel", "PHP", "MySQL", "Tailwind CSS", "Midtrans API", "Vite"],
-        duration: "2026",
-        description: "Portal sertifikasi institusional resmi yang dibangun dengan Laravel, menghadirkan autentikasi OTP, integrasi payment gateway Midtrans, pemindaian kehadiran berbasis QR-code, dan penerbitan sertifikat digital otomatis.",
-        link: "https://github.com/lastWannn/FikomCertificationCenter",
-        github: "https://github.com/lastWannn/FikomCertificationCenter",
-        image: ""
-      },
-      {
-        id: 6,
+        id: 2,
         title: "COGURA Coffee — Premium Arabica Storefront",
         techStack: ["Next.js", "TypeScript", "Tailwind CSS", "React", "i18n", "WhatsApp"],
         duration: "2026",
@@ -517,6 +458,47 @@ export const portfolioData = {
         live: "https://cogura.store/en",
         github: "https://github.com/appyx123/cogura.web",
         image: "/images/projects/cogura.webp"
+      }
+      /*
+      ,
+      {
+        id: 3,
+        title: "PULMO-SENSE — Prototipe Stetoskop Pintar (TinyML)",
+        techStack: ["ESP32-S3", "TinyML", "C++", "MEMS Sensors", "Edge Computing"],
+        duration: "Jan 2026 - Apr 2026",
+        description: "Merancang prototipe perangkat keras menggunakan ESP32-S3 dan sensor MEMS untuk deteksi dini anomali pernapasan. Menjalankan model TinyML terkuantisasi langsung pada mikrokontroler untuk inferensi real-time tanpa ketergantungan internet.",
+        link: "https://github.com/appyx123",
+        image: "/images/projects/stethoscope.jpg"
+      },
+      {
+        id: 4,
+        title: "TB Care AI — Multimodal Screening",
+        techStack: ["Python", "Deep Learning", "Streamlit", "CNN & LSTM", "Scikit-Learn", "Audio Processing"],
+        duration: "2026",
+        description: "Prototipe skrining medis multimodal tingkat lanjut yang menggabungkan Deep Learning (CNN + LSTM) untuk analisis audio batuk dengan evaluasi data klinis berbasis aturan guna menghasilkan skor risiko kesehatan yang akurat.",
+        link: "https://github.com/appyx123/TB-Care-AI",
+        github: "https://github.com/appyx123/TB-Care-AI",
+        image: ""
+      },
+      {
+        id: 5,
+        title: "FoodLens – Pengenalan Makanan On-Device",
+        techStack: ["Flutter", "TensorFlow Lite", "TheMealDB API", "Dart"],
+        duration: "Jul 2026 - Sekarang",
+        description: "Mengembangkan aplikasi mobile berbasis Flutter untuk pengenalan makanan langsung di perangkat (on-device). Menangkap gambar makanan, memproses data lokal tanpa latensi cloud, dan secara otomatis mencocokkan resep via TheMealDB API. Menggunakan background isolates untuk inferensi responsif dan Provider untuk manajemen state.",
+        link: "https://github.com/appyx123/FoodLens-Flutter",
+        github: "https://github.com/appyx123/FoodLens-Flutter",
+        image: "/images/projects/foodlens.jpg"
+      },
+      {
+        id: 6,
+        title: "FIKOM Certification Center (FCC)",
+        techStack: ["Laravel", "PHP", "MySQL", "Tailwind CSS", "Midtrans API", "Vite"],
+        duration: "2026",
+        description: "Portal sertifikasi institusional resmi yang dibangun dengan Laravel, menghadirkan autentikasi OTP, integrasi payment gateway Midtrans, pemindaian kehadiran berbasis QR-code, dan penerbitan sertifikat digital otomatis.",
+        link: "https://github.com/lastWannn/FikomCertificationCenter",
+        github: "https://github.com/lastWannn/FikomCertificationCenter",
+        image: ""
       },
       {
         id: 7,
@@ -527,28 +509,6 @@ export const portfolioData = {
         link: "https://github.com/Justrifkyy/NetManagement",
         github: "https://github.com/Justrifkyy/NetManagement",
         image: "/images/projects/netmanager.jpg"
-      }
-      /*
-      ,
-      {
-        id: 8,
-        title: "OurOffice — Linux-First Office Suite",
-        techStack: ["Rust", "Qt 6 / QML", "Cargo", "CMake", "Desktop App", "Linux"],
-        duration: "2026",
-        description: "Office suite desktop sumber terbuka berperforma tinggi yang direkayasa secara native untuk ekosistem Linux, menampilkan core Rust memory-safe, antarmuka Qt/QML, dan arsitektur pengembangan AI-agent-first.",
-        link: "https://github.com/appyx123/OurOffice-Linux",
-        github: "https://github.com/appyx123/OurOffice-Linux",
-        image: ""
-      },
-      {
-        id: 9,
-        title: "Monitoring Praktikum Laboratorium",
-        techStack: ["PHP", "MySQL", "MVC Architecture", "JavaScript", "HTML5/CSS3", "Academic System"],
-        duration: "2026",
-        description: "Sistem monitoring akademik berbasis web menggunakan native PHP dan arsitektur MVC untuk pengelolaan jadwal laboratorium, asisten praktikum, dosen pengampu, dan sesi asistensi.",
-        link: "https://github.com/TUBES-CA-25/Monitoring-Praktikum-Kelompok-4",
-        github: "https://github.com/TUBES-CA-25/Monitoring-Praktikum-Kelompok-4",
-        image: ""
       }
       */
     ],
