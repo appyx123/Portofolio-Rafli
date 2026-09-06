@@ -7,7 +7,7 @@ const geistSans = Geist({ subsets: ['latin'], variable: '--font-geist-sans' })
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
 
 export const metadata: Metadata = {
-  title: 'Muhammad Rafli — AI & IoT Developer',
+  title: 'Muhammad Rafli   AI & IoT Developer',
   description: 'Portfolio of Muhammad Rafli, an AI & IoT Developer and Machine Learning Engineer building scalable, data-driven solutions.',
   generator: 'v0.app',
 }

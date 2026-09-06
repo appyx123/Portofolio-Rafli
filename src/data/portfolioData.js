@@ -7,7 +7,7 @@ export const portfolioData = {
   en: {
     personalInfo: {
       name: "Muhammad Rafli",
-      headline: "AI & IoT Developer | Machine Learning Engineer",
+      headline: "AI & IoT Engineer | Full-Stack Developer",
       email: "raflyofficial6122@gmail.com",
       phone: "+62 8224 6641 848",
       whatsapp: "https://wa.me/6282246641848",
@@ -16,14 +16,14 @@ export const portfolioData = {
       instagram: "https://www.instagram.com/appy_6122/",
       github: "https://github.com/appyx123",
       availability: "Available for Projects & Research",
-      summary: "Informatics Engineering student specializing in Artificial Intelligence (AI) and Internet of Things (IoT) integration. Experienced in leading applied research and end-to-end system development, from AI-driven financial risk modeling to TinyML-based medical device prototyping. Passionate about building scalable, data-driven solutions that drive digital transformation."
+      summary: "Informatics Engineering student with a primary specialization in Artificial Intelligence (AI) and the Internet of Things (IoT). Experienced in designing Machine Learning models, Edge Computing architectures (TinyML), and smart hardware devices. Equipped with strong Full-Stack Web Development expertise to build production-grade systems, enabling me to deliver end-to-end engineering solutions from sensors and AI algorithms to interactive enterprise dashboards."
     },
-    
+
     education: [
       {
         id: 1,
         institution: "Universitas Muslim Indonesia (UMI)",
-        degree: "Bachelor of Informatics Engineering",
+        degree: "Bachelor Degree Candidate (S.Kom)",
         duration: "Jun 2023 - Mar 2027",
         gpa: "3.96 / 4.00",
         logo: "/images/UMI.png",
@@ -108,16 +108,7 @@ export const portfolioData = {
     projects: [
       {
         id: 1,
-        title: "FoodLens – On-Device Food Recognition",
-        techStack: ["Flutter", "TensorFlow Lite", "TheMealDB API", "Dart"],
-        duration: "Jul 2026 - Present",
-        description: "Developed a Flutter-based mobile application that performs on-device food recognition. Captures food images, preprocesses them, and classifies them locally without cloud inference. Automatically retrieves related recipes using TheMealDB API. Built using background isolates for responsive inference and Provider for state management.",
-        link: "#",
-        image: "/images/projects/foodlens.jpg"
-      },
-      {
-        id: 2,
-        title: "Smart Stethoscope Prototype (TinyML)",
+        title: "PULMO-SENSE — Smart Stethoscope Prototype (TinyML)",
         techStack: ["ESP32-S3", "TinyML", "C++", "MEMS Sensors", "Edge Computing"],
         duration: "Jan 2026 - Apr 2026",
         description: "Designed a hardware prototype utilizing ESP32-S3 and MEMS sensors for early detection of respiratory diseases. Deployed TinyML models directly onto the microcontroller for real-time, offline edge computing inference.",
@@ -125,14 +116,89 @@ export const portfolioData = {
         image: "/images/projects/stethoscope.jpg"
       },
       {
+        id: 2,
+        title: "TB Care AI — Multimodal Screening",
+        techStack: ["Python", "Deep Learning", "Streamlit", "CNN & LSTM", "Scikit-Learn", "Audio Processing"],
+        duration: "2026",
+        description: "An advanced multimodal medical screening prototype combining Deep Learning (CNN + LSTM) for cough audio analysis with rule-based clinical data evaluation to generate accurate health risk scores.",
+        link: "https://github.com/appyx123/TB-Care-AI",
+        github: "https://github.com/appyx123/TB-Care-AI",
+        image: ""
+      },
+      {
         id: 3,
-        title: "ISP Automated Management System",
-        techStack: ["Laravel", "PHP", "Filament", "MikroTik API", "Networking"],
-        duration: "May 2026 - Present",
-        description: "A centralized dashboard for Internet Service Providers built with Laravel. Features include automatic customer isolation, centralized router management, and real-time network control via direct MikroTik API integration.",
-        link: "#",
+        title: "FoodLens – On-Device Food Recognition",
+        techStack: ["Flutter", "TensorFlow Lite", "TheMealDB API", "Dart"],
+        duration: "Jul 2026 - Present",
+        description: "Developed a Flutter-based mobile application that performs on-device food recognition. Captures food images, preprocesses them, and classifies them locally without cloud inference. Automatically retrieves related recipes using TheMealDB API. Built using background isolates for responsive inference and Provider for state management.",
+        link: "https://github.com/appyx123/FoodLens-Flutter",
+        github: "https://github.com/appyx123/FoodLens-Flutter",
+        image: "/images/projects/foodlens.jpg"
+      },
+      {
+        id: 4,
+        title: "Real-Time Thumb & Finger Detection",
+        techStack: ["MediaPipe", "JavaScript", "HTML5 Canvas", "WebRTC", "Tailwind CSS", "Computer Vision"],
+        duration: "2026",
+        description: "A privacy-first, client-side browser application for real-time finger counting and hand landmark detection, built with MediaPipe AI and WebGL without any backend dependencies.",
+        link: "https://github.com/appyx123/Thumb-Detection.Web",
+        github: "https://github.com/appyx123/Thumb-Detection.Web",
+        image: "/images/projects/thumb-detection.png"
+      },
+      {
+        id: 5,
+        title: "FIKOM Certification Center (FCC)",
+        techStack: ["Laravel", "PHP", "MySQL", "Tailwind CSS", "Midtrans API", "Vite"],
+        duration: "2026",
+        description: "An official institutional certification portal built with Laravel, featuring seamless OTP authentication, Midtrans payment gateway integration, QR-code attendance scanning, and automated digital certificate generation.",
+        link: "https://github.com/lastWannn/FikomCertificationCenter",
+        github: "https://github.com/lastWannn/FikomCertificationCenter",
+        image: ""
+      },
+      {
+        id: 6,
+        title: "COGURA Coffee — Premium Arabica Storefront",
+        techStack: ["Next.js", "TypeScript", "Tailwind CSS", "React", "i18n", "WhatsApp"],
+        duration: "2026",
+        description: "A modern multilingual coffee storefront built with Next.js and TypeScript, featuring static site generation, responsive UI, Indonesian/English localization, product catalog, and WhatsApp-based ordering.",
+        link: "https://cogura.store/en",
+        live: "https://cogura.store/en",
+        github: "https://github.com/appyx123/cogura.web",
+        image: "/images/projects/cogura.webp"
+      },
+      {
+        id: 7,
+        title: "NetManagement — ISP Management System",
+        techStack: ["Laravel", "PHP", "Tailwind CSS", "MySQL", "Vite", "System Architecture"],
+        duration: "2026",
+        description: "A comprehensive ISP operational platform featuring role-based access control, billing automation, marketing pipelines, technician task tracking, and customer self-service portals.",
+        link: "https://github.com/Justrifkyy/NetManagement",
+        github: "https://github.com/Justrifkyy/NetManagement",
         image: "/images/projects/netmanager.jpg"
       }
+      /*
+      ,
+      {
+        id: 8,
+        title: "OurOffice — Linux-First Office Suite",
+        techStack: ["Rust", "Qt 6 / QML", "Cargo", "CMake", "Desktop App", "Linux"],
+        duration: "2026",
+        description: "A high-performance, open-source desktop office suite engineered natively for Linux ecosystems, featuring a memory-safe Rust core, Qt/QML interfaces, and an AI-agent-first development architecture.",
+        link: "https://github.com/appyx123/OurOffice-Linux",
+        github: "https://github.com/appyx123/OurOffice-Linux",
+        image: ""
+      },
+      {
+        id: 9,
+        title: "Monitoring Praktikum Laboratorium",
+        techStack: ["PHP", "MySQL", "MVC Architecture", "JavaScript", "HTML5/CSS3", "Academic System"],
+        duration: "2026",
+        description: "A web-based academic monitoring system utilizing raw PHP and MVC architecture for managing laboratory schedules, teaching assistants, lecturers, and mentoring sessions.",
+        link: "https://github.com/TUBES-CA-25/Monitoring-Praktikum-Kelompok-4",
+        github: "https://github.com/TUBES-CA-25/Monitoring-Praktikum-Kelompok-4",
+        image: ""
+      }
+      */
     ],
 
     certifications: [
@@ -170,7 +236,7 @@ export const portfolioData = {
 
     skills: {
       ai_ml: [
-        "Machine Learning", "Deep Learning", "Generative AI", "Large Language Models (LLMs)", 
+        "Machine Learning", "Deep Learning", "Generative AI", "Large Language Models (LLMs)",
         "Retrieval-Augmented Generation (RAG)", "Computer Vision", "TensorFlow", "TensorFlow Lite", "Prompt Engineering"
       ],
       software_dev: [
@@ -190,35 +256,35 @@ export const portfolioData = {
     scrollytellingChapters: [
       {
         step: "01",
-        phase: "Signal Acquisition",
-        title: "MEMS Acoustic Transduction (ESP32-S3)",
-        summary: "Captured high-precision analog respiratory sounds via MEMS acoustic sensors directly integrated with an ESP32-S3 microcontroller, optimized for early detection of respiratory anomalies in edge conditions.",
-        spec: "ESP32-S3 · MEMS Sensor · Low-Noise Preamp",
-        badge: "Hardware & Edge",
+        phase: "Hardware & Acoustics",
+        title: "Precision Signal Acquisition (Mechanical Retrofit & I2S)",
+        summary: "Capturing respiratory acoustic vibrations using a pure digital omnidirectional MEMS INMP441 microphone (I2S). The plug-and-play mechanical retrofit design with a 3D resin acoustic chamber clamps onto standard stethoscope tubing without damaging the original instrument, isolated from ambient noise.",
+        spec: "ESP32-S3 · MEMS INMP441 · I2S Audio · 3D Resin Chamber",
+        badge: "Hardware & Acoustics",
       },
       {
         step: "02",
-        phase: "On-Device Preprocessing",
-        title: "Frequency Filtering & Spectrogram Generation",
-        summary: "Converted raw respiratory vibration data into spectrogram representations using embedded digital signal processing algorithms directly on the microcontroller chip.",
-        spec: "Fixed-Point DSP · 256-pt Windowing · Zero Cloud Latency",
-        badge: "Embedded C++",
+        phase: "Digital Signal Processing",
+        title: "Lung Feature Extraction (MFCC)",
+        summary: "Raw respiratory audio signals are processed directly inside the microcontroller (Edge Computing) to extract MFCC (Mel-Frequency Cepstral Coefficients) feature matrices. This on-device extraction accurately captures spectral characteristics of crackles and wheezes matching human auditory perception.",
+        spec: "MFCC Extraction · 20x40 Matrix · 100% Offline Processing",
+        badge: "Digital Signal Processing",
       },
       {
         step: "03",
-        phase: "TinyML Inference",
-        title: "Offline Neural Classification",
-        summary: "Executed quantized TinyML neural network inference on-device without internet access, providing vital screening capabilities in areas with limited digital and medical infrastructure.",
-        spec: "TinyML · INT8 Quantized · Sub-50ms Inference",
+        phase: "Edge AI Engine",
+        title: "TinyML Inference (Lightweight 1D CNN)",
+        summary: "Executes a Lightweight CNN architecture compressed via post-training quantization. Featuring Global Average Pooling (GAP) to prevent overfitting and minimize RAM overhead, enabling the deep learning model to operate autonomously without cloud computing.",
+        spec: "TinyML · Lightweight CNN · INT8 Quantization · GAP",
         badge: "Edge AI Engine",
       },
       {
         step: "04",
         phase: "Clinical Feedback",
-        title: "Real-time Anomaly Indication",
-        summary: "Instantly displayed diagnostic confidence and respiratory risk classifications, assisting community healthcare workers with immediate point-of-care feedback.",
-        spec: "Real-Time Telemetry · Autonomous Operation",
-        badge: "Field Healthcare",
+        title: "Real-Time Diagnostics & OLED Display",
+        summary: "Pulmonary anomaly classification results are directly visualized via a mini OLED I2C display interface with sub-2-second latency. Delivering an objective 'second opinion' for healthcare workers in primary health centers (FKTP), overcoming diagnostic barriers in blank-spot regions.",
+        spec: "OLED I2C · Accuracy >85% · Latency < 2s · Blank Spot Solution",
+        badge: "Clinical Feedback",
       }
     ],
 
@@ -250,26 +316,30 @@ export const portfolioData = {
         subtitle: "End-to-end development, applied AI research, network automation, and departmental leadership."
       },
       scrollytelling: {
-        kicker: "Architecture Deep Dive · Scrollytelling",
-        title: "From acoustic vibration to",
-        titleHighlight: "on-device clinical inference.",
-        desc: "Scroll through the execution pipeline of the Smart Stethoscope Prototype. Notice how the hardware schematic stays pinned while each subsystem unfolds.",
-        nodeHeader: "ESP32-S3 Edge Node",
+        kicker: "",
+        title: "Architecture Breakdown ·",
+        titleHighlight: "PULMO-SENSE",
+        desc: "From manual stethoscope to 100% offline intelligent diagnosis for Tuberculosis screening in blank-spot areas with limited infrastructure.",
+        nodeHeader: "COMPUTE: ESP32-S3 (TinyML)",
         stagePrefix: "STAGE",
         stageSuffix: "OF 4 ACTIVE",
-        signalTitle: "Signal PCG (Phonocardiogram)",
-        statusRealtime: "STATUS: REAL-TIME"
+        signalTitle: "Respiratory Acoustic Signal (I2S)",
+        statusRealtime: "STATUS: 100% OFFLINE",
+        statStatus: "100% OFFLINE",
+        statLatency: "< 2s",
+        statCompute: "ESP32-S3 (TinyML)",
+        statAccuracy: "> 85.0%"
       },
       projects: {
         kicker: "Featured Engineering Work",
         title: "Systems built to solve",
         titleHighlight: "real problems.",
-        desc: "On-device TinyML inference, Flutter edge clients, and automated network infrastructures."
+        desc: ""
       },
       skills: {
         kicker: "Capabilities & Technical Stack",
         title: "Technical proficiencies",
-        titleHighlight: "across hardware & AI.",
+        titleHighlight: "across hardware, AI, & software engineering.",
         certsKicker: "Verified Credentials",
         certsTitle: "Certifications."
       },
@@ -289,7 +359,7 @@ export const portfolioData = {
   id: {
     personalInfo: {
       name: "Muhammad Rafli",
-      headline: "Pengembang AI & IoT | Machine Learning Engineer",
+      headline: "AI & IoT Engineer | Full-Stack Developer",
       email: "raflyofficial6122@gmail.com",
       phone: "+62 8224 6641 848",
       whatsapp: "https://wa.me/6282246641848",
@@ -298,14 +368,14 @@ export const portfolioData = {
       instagram: "https://www.instagram.com/appy_6122/",
       github: "https://github.com/appyx123",
       availability: "Tersedia untuk Riset & Proyek Baru",
-      summary: "Mahasiswa Teknik Informatika yang berspesialisasi dalam integrasi Artificial Intelligence (AI) dan Internet of Things (IoT). Berpengalaman dalam memimpin riset terapan dan pengembangan sistem end-to-end, mulai dari pemodelan risiko keuangan berbasis AI hingga pembuatan prototipe perangkat medis berbasis TinyML. Bersemangat dalam membangun solusi skalabel berbasis data untuk mendorong transformasi digital."
+      summary: "Mahasiswa Teknik Informatika dengan spesialisasi utama pada Kecerdasan Buatan (AI) dan Internet of Things (IoT). Berpengalaman merancang model Machine Learning, arsitektur Edge Computing (TinyML), dan perangkat keras pintar. Dilengkapi dengan keahlian Full-Stack Web Development untuk membangun sistem berskala produksi, memungkinkan saya mengembangkan solusi teknologi end-to-end mulai dari sensor dan algoritma AI hingga dashboard interaktif perusahaan."
     },
-    
+
     education: [
       {
         id: 1,
         institution: "Universitas Muslim Indonesia (UMI)",
-        degree: "Sarjana Teknik Informatika (S.Kom)",
+        degree: "Kandidat Sarjana (S.Kom)",
         duration: "Jun 2023 - Mar 2027",
         gpa: "3.96 / 4.00",
         logo: "/images/UMI.png",
@@ -390,16 +460,7 @@ export const portfolioData = {
     projects: [
       {
         id: 1,
-        title: "FoodLens – Pengenalan Makanan On-Device",
-        techStack: ["Flutter", "TensorFlow Lite", "TheMealDB API", "Dart"],
-        duration: "Jul 2026 - Sekarang",
-        description: "Mengembangkan aplikasi mobile berbasis Flutter untuk pengenalan makanan langsung di perangkat (on-device). Menangkap gambar makanan, memproses data lokal tanpa latensi cloud, dan secara otomatis mencocokkan resep via TheMealDB API. Menggunakan background isolates untuk inferensi responsif dan Provider untuk manajemen state.",
-        link: "#",
-        image: "/images/projects/foodlens.jpg"
-      },
-      {
-        id: 2,
-        title: "Prototipe Stetoskop Pintar (TinyML)",
+        title: "PULMO-SENSE — Prototipe Stetoskop Pintar (TinyML)",
         techStack: ["ESP32-S3", "TinyML", "C++", "MEMS Sensors", "Edge Computing"],
         duration: "Jan 2026 - Apr 2026",
         description: "Merancang prototipe perangkat keras menggunakan ESP32-S3 dan sensor MEMS untuk deteksi dini anomali pernapasan. Menjalankan model TinyML terkuantisasi langsung pada mikrokontroler untuk inferensi real-time tanpa ketergantungan internet.",
@@ -407,14 +468,89 @@ export const portfolioData = {
         image: "/images/projects/stethoscope.jpg"
       },
       {
+        id: 2,
+        title: "TB Care AI — Multimodal Screening",
+        techStack: ["Python", "Deep Learning", "Streamlit", "CNN & LSTM", "Scikit-Learn", "Audio Processing"],
+        duration: "2026",
+        description: "Prototipe skrining medis multimodal tingkat lanjut yang menggabungkan Deep Learning (CNN + LSTM) untuk analisis audio batuk dengan evaluasi data klinis berbasis aturan guna menghasilkan skor risiko kesehatan yang akurat.",
+        link: "https://github.com/appyx123/TB-Care-AI",
+        github: "https://github.com/appyx123/TB-Care-AI",
+        image: ""
+      },
+      {
         id: 3,
-        title: "Sistem Otomasi Manajemen ISP",
-        techStack: ["Laravel", "PHP", "Filament", "MikroTik API", "Networking"],
-        duration: "Mei 2026 - Sekarang",
-        description: "Dashboard terpusat untuk Internet Service Provider berbasis Laravel. Dilengkapi otomasi isolasi pelanggan, manajemen router terpusat, dan kendali jaringan real-time melalui integrasi langsung MikroTik API.",
-        link: "#",
+        title: "FoodLens – Pengenalan Makanan On-Device",
+        techStack: ["Flutter", "TensorFlow Lite", "TheMealDB API", "Dart"],
+        duration: "Jul 2026 - Sekarang",
+        description: "Mengembangkan aplikasi mobile berbasis Flutter untuk pengenalan makanan langsung di perangkat (on-device). Menangkap gambar makanan, memproses data lokal tanpa latensi cloud, dan secara otomatis mencocokkan resep via TheMealDB API. Menggunakan background isolates untuk inferensi responsif dan Provider untuk manajemen state.",
+        link: "https://github.com/appyx123/FoodLens-Flutter",
+        github: "https://github.com/appyx123/FoodLens-Flutter",
+        image: "/images/projects/foodlens.jpg"
+      },
+      {
+        id: 4,
+        title: "Real-Time Thumb & Finger Detection",
+        techStack: ["MediaPipe", "JavaScript", "HTML5 Canvas", "WebRTC", "Tailwind CSS", "Computer Vision"],
+        duration: "2026",
+        description: "Aplikasi web berbasis browser yang mengutamakan privasi untuk penghitungan jari dan deteksi landmark tangan secara real-time, dibangun dengan MediaPipe AI dan WebGL tanpa ketergantungan backend.",
+        link: "https://github.com/appyx123/Thumb-Detection.Web",
+        github: "https://github.com/appyx123/Thumb-Detection.Web",
+        image: "/images/projects/thumb-detection.png"
+      },
+      {
+        id: 5,
+        title: "FIKOM Certification Center (FCC)",
+        techStack: ["Laravel", "PHP", "MySQL", "Tailwind CSS", "Midtrans API", "Vite"],
+        duration: "2026",
+        description: "Portal sertifikasi institusional resmi yang dibangun dengan Laravel, menghadirkan autentikasi OTP, integrasi payment gateway Midtrans, pemindaian kehadiran berbasis QR-code, dan penerbitan sertifikat digital otomatis.",
+        link: "https://github.com/lastWannn/FikomCertificationCenter",
+        github: "https://github.com/lastWannn/FikomCertificationCenter",
+        image: ""
+      },
+      {
+        id: 6,
+        title: "COGURA Coffee — Premium Arabica Storefront",
+        techStack: ["Next.js", "TypeScript", "Tailwind CSS", "React", "i18n", "WhatsApp"],
+        duration: "2026",
+        description: "Storefront kopi modern multibahasa yang dibangun dengan Next.js dan TypeScript, menghadirkan static site generation, UI responsif, lokalisasi Bahasa Indonesia/Inggris, katalog produk, dan pemesanan berbasis WhatsApp.",
+        link: "https://cogura.store/en",
+        live: "https://cogura.store/en",
+        github: "https://github.com/appyx123/cogura.web",
+        image: "/images/projects/cogura.webp"
+      },
+      {
+        id: 7,
+        title: "NetManagement — ISP Management System",
+        techStack: ["Laravel", "PHP", "Tailwind CSS", "MySQL", "Vite", "System Architecture"],
+        duration: "2026",
+        description: "Platform operasional ISP komprehensif yang dilengkapi kontrol akses berbasis peran (RBAC), otomasi penagihan, pipeline pemasaran, pelacakan tugas teknisi, dan portal mandiri pelanggan.",
+        link: "https://github.com/Justrifkyy/NetManagement",
+        github: "https://github.com/Justrifkyy/NetManagement",
         image: "/images/projects/netmanager.jpg"
       }
+      /*
+      ,
+      {
+        id: 8,
+        title: "OurOffice — Linux-First Office Suite",
+        techStack: ["Rust", "Qt 6 / QML", "Cargo", "CMake", "Desktop App", "Linux"],
+        duration: "2026",
+        description: "Office suite desktop sumber terbuka berperforma tinggi yang direkayasa secara native untuk ekosistem Linux, menampilkan core Rust memory-safe, antarmuka Qt/QML, dan arsitektur pengembangan AI-agent-first.",
+        link: "https://github.com/appyx123/OurOffice-Linux",
+        github: "https://github.com/appyx123/OurOffice-Linux",
+        image: ""
+      },
+      {
+        id: 9,
+        title: "Monitoring Praktikum Laboratorium",
+        techStack: ["PHP", "MySQL", "MVC Architecture", "JavaScript", "HTML5/CSS3", "Academic System"],
+        duration: "2026",
+        description: "Sistem monitoring akademik berbasis web menggunakan native PHP dan arsitektur MVC untuk pengelolaan jadwal laboratorium, asisten praktikum, dosen pengampu, dan sesi asistensi.",
+        link: "https://github.com/TUBES-CA-25/Monitoring-Praktikum-Kelompok-4",
+        github: "https://github.com/TUBES-CA-25/Monitoring-Praktikum-Kelompok-4",
+        image: ""
+      }
+      */
     ],
 
     certifications: [
@@ -452,7 +588,7 @@ export const portfolioData = {
 
     skills: {
       ai_ml: [
-        "Machine Learning", "Deep Learning", "Generative AI", "Large Language Models (LLMs)", 
+        "Machine Learning", "Deep Learning", "Generative AI", "Large Language Models (LLMs)",
         "Retrieval-Augmented Generation (RAG)", "Computer Vision", "TensorFlow", "TensorFlow Lite", "Prompt Engineering"
       ],
       software_dev: [
@@ -472,35 +608,35 @@ export const portfolioData = {
     scrollytellingChapters: [
       {
         step: "01",
-        phase: "Akuisisi Sinyal",
-        title: "Transduksi Akustik MEMS (ESP32-S3)",
-        summary: "Menangkap getaran akustik respirasi berpresisi tinggi melalui sensor MEMS yang terhubung langsung ke mikrokontroler ESP32-S3, dioptimalkan untuk deteksi dini penyakit pernapasan pada perangkat edge.",
-        spec: "ESP32-S3 · Sensor MEMS · Preamp Low-Noise",
-        badge: "Perangkat Keras & Edge",
+        phase: "Perangkat Keras & Akustik",
+        title: "Akuisisi Sinyal Presisi (Retrofit Mekanik & I2S)",
+        summary: "Menangkap getaran akustik respirasi menggunakan mikrofon omnidirectional MEMS INMP441 murni digital (I2S). Desain mekanik retrofit 'plug-and-play' dengan acoustic chamber resin 3D memungkinkan alat dijepit pada selang stetoskop manual tanpa merusak instrumen asli dan bebas dari kebisingan luar.",
+        spec: "ESP32-S3 · MEMS INMP441 · I2S Audio · 3D Resin Chamber",
+        badge: "Perangkat Keras & Akustik",
       },
       {
         step: "02",
-        phase: "Pemrosesan On-Device",
-        title: "Penyaringan Frekuensi & Spektrogram",
-        summary: "Mengonversi sinyal getaran respirasi mentah menjadi representasi spektrogram menggunakan algoritma pemrosesan sinyal digital tertanam (DSP) langsung di chip mikrokontroler.",
-        spec: "Fixed-Point DSP · 256-pt Windowing · Nol Latensi Cloud",
-        badge: "Embedded C++",
+        phase: "Pemrosesan Sinyal Digital",
+        title: "Ekstraksi Fitur Paru (MFCC)",
+        summary: "Sinyal audio pernapasan mentah diproses langsung di dalam mikrokontroler (Edge Computing) untuk mengekstraksi matriks fitur MFCC (Mel-Frequency Cepstral Coefficients). Ekstraksi on-device ini secara presisi merepresentasikan karakteristik spektral suara crackles dan wheezes sesuai kepekaan pendengaran manusia.",
+        spec: "MFCC Extraction · Matriks 20x40 · Pemrosesan 100% Luring",
+        badge: "Pemrosesan Sinyal Digital",
       },
       {
         step: "03",
-        phase: "Inferensi TinyML",
-        title: "Klasifikasi Neural Offline",
-        summary: "Mengeksekusi model neural network TinyML terkuantisasi secara offline tanpa internet, menghadirkan kemampuan skrining penting bagi wilayah dengan keterbatasan infrastruktur digital.",
-        spec: "TinyML · Kuantisasi INT8 · Latensi <50ms",
+        phase: "Edge AI Engine",
+        title: "Inferensi TinyML (Lightweight CNN 1D)",
+        summary: "Mengeksekusi arsitektur Lightweight CNN yang telah dikompresi melalui post-training quantization. Dilengkapi lapisan Global Average Pooling (GAP) untuk mencegah overfitting dan meminimalkan beban RAM, memungkinkan model deep learning beroperasi mandiri tanpa komputasi cloud.",
+        spec: "TinyML · Lightweight CNN · INT8 Quantization · GAP",
         badge: "Edge AI Engine",
       },
       {
         step: "04",
         phase: "Umpan Balik Klinis",
-        title: "Indikasi Anomali Real-Time",
-        summary: "Secara instan menampilkan skor keyakinan diagnostik dan klasifikasi risiko pernapasan, membantu tenaga kesehatan komunitas dengan umpan balik point-of-care yang cepat.",
-        spec: "Telemetri Real-Time · Operasi Otonom",
-        badge: "Layanan Kesehatan Lapangan",
+        title: "Diagnostik Real-Time & Layar OLED",
+        summary: "Hasil klasifikasi anomali paru langsung divisualisasikan melalui layar antarmuka mini OLED I2C dengan latensi di bawah 2 detik. Menghadirkan 'second opinion' yang objektif bagi tenaga medis di Fasilitas Kesehatan Tingkat Pertama (FKTP), memecahkan kebuntuan diagnostik di area blank spot.",
+        spec: "OLED I2C · Akurasi >85% · Latensi < 2 Detik · Solusi Blank Spot",
+        badge: "Umpan Balik Klinis",
       }
     ],
 
@@ -532,26 +668,30 @@ export const portfolioData = {
         subtitle: "Pengembangan end-to-end, riset AI terapan, otomasi jaringan, dan kepemimpinan departemen."
       },
       scrollytelling: {
-        kicker: "Bedah Arsitektur · Scrollytelling",
-        title: "Dari getaran akustik menuju",
-        titleHighlight: "inferensi klinis di perangkat (edge).",
-        desc: "Gulir untuk melihat alur eksekusi Prototipe Stetoskop Pintar. Perhatikan bagaimana skematik hardware tetap terkunci saat penjelasan setiap subsistem bergerak melintas.",
-        nodeHeader: "Node Edge ESP32-S3",
+        kicker: "",
+        title: "Bedah Arsitektur ·",
+        titleHighlight: "PULMO-SENSE",
+        desc: "Dari stetoskop manual menuju diagnosis cerdas 100% luring (offline) untuk deteksi Tuberkulosis di wilayah minim infrastruktur (blank spot).",
+        nodeHeader: "COMPUTE: ESP32-S3 (TinyML)",
         stagePrefix: "TAHAP",
         stageSuffix: "DARI 4 AKTIF",
-        signalTitle: "Sinyal PCG (Phonocardiogram)",
-        statusRealtime: "STATUS: REAL-TIME"
+        signalTitle: "Sinyal Akustik Respirasi (I2S)",
+        statusRealtime: "STATUS: 100% OFFLINE (LURING)",
+        statStatus: "100% OFFLINE (LURING)",
+        statLatency: "< 2 Detik",
+        statCompute: "ESP32-S3 (TinyML)",
+        statAccuracy: "> 85.0%"
       },
       projects: {
         kicker: "Karya Rekayasa Unggulan",
         title: "Sistem yang dibangun untuk menyelesaikan",
         titleHighlight: "masalah nyata.",
-        desc: "Inferensi TinyML di perangkat, aplikasi client edge Flutter, dan infrastruktur otomasi jaringan."
+        desc: ""
       },
       skills: {
         kicker: "Kemampuan & Tech Stack",
         title: "Keahlian teknis",
-        titleHighlight: "di bidang hardware & AI.",
+        titleHighlight: "di bidang hardware, AI, & rekayasa perangkat lunak.",
         certsKicker: "Kredensial Terverifikasi",
         certsTitle: "Sertifikasi."
       },

@@ -21,14 +21,16 @@ export default function StickyScrollytelling() {
     <section id="scrollytelling" className="py-24 px-6 max-w-6xl mx-auto border-t border-white/10">
       {/* Section Header */}
       <div className="mb-16">
-        <div className="flex items-center gap-2 font-mono text-xs text-emerald-400 uppercase tracking-widest mb-3">
-          <Zap size={14} />
-          <span>{ui.scrollytelling.kicker}</span>
-        </div>
-        <h2 className="text-3xl sm:text-5xl font-medium tracking-tight text-zinc-100 max-w-2xl">
-          {ui.scrollytelling.title} <span className="text-zinc-500">{ui.scrollytelling.titleHighlight}</span>
+        {ui.scrollytelling.kicker && (
+          <div className="flex items-center gap-2 font-mono text-xs text-emerald-400 uppercase tracking-widest mb-3">
+            <Zap size={14} />
+            <span>{ui.scrollytelling.kicker}</span>
+          </div>
+        )}
+        <h2 className="text-3xl sm:text-5xl font-medium tracking-tight text-zinc-100 max-w-3xl">
+          {ui.scrollytelling.title} <span className="text-zinc-500 whitespace-nowrap">{ui.scrollytelling.titleHighlight}</span>
         </h2>
-        <p className="text-sm sm:text-base text-zinc-400 mt-4 max-w-xl">
+        <p className="text-sm sm:text-base text-zinc-400 mt-4 max-w-xl whitespace-pre-line">
           {ui.scrollytelling.desc}
         </p>
       </div>
@@ -54,7 +56,6 @@ export default function StickyScrollytelling() {
                 <span className="font-mono text-xs px-2.5 py-1 rounded bg-zinc-900 border border-white/10 text-emerald-400">
                   {ui.scrollytelling.stagePrefix} {chapter.step} / 04
                 </span>
-                <span className="text-xs font-mono text-zinc-500">{chapter.badge}</span>
               </div>
 
               <div className="text-xs font-mono text-zinc-400 mb-1">{chapter.phase}</div>
@@ -129,7 +130,7 @@ export default function StickyScrollytelling() {
             <div className="p-4 rounded-xl bg-zinc-900/80 border border-white/10 font-mono">
               <div className="flex items-center justify-between text-[11px] text-zinc-400 mb-2">
                 <span>{ui.scrollytelling.signalTitle}</span>
-                <span className="text-emerald-400">{ui.scrollytelling.statusRealtime}</span>
+                <span className="text-emerald-400 font-semibold">{ui.scrollytelling.statusRealtime}</span>
               </div>
 
               {/* Animated Waveform SVG */}
@@ -146,15 +147,15 @@ export default function StickyScrollytelling() {
               <div className="grid grid-cols-3 gap-2 mt-3 pt-3 border-t border-white/5 text-[11px] text-center">
                 <div>
                   <div className="text-zinc-500">LATENCY</div>
-                  <div className="text-zinc-200 font-semibold">42 ms</div>
+                  <div className="text-zinc-200 font-semibold">{ui.scrollytelling.statLatency || "< 2 Detik"}</div>
                 </div>
                 <div>
-                  <div className="text-zinc-500">MEMORY</div>
-                  <div className="text-zinc-200 font-semibold">32 KB RAM</div>
+                  <div className="text-zinc-500">COMPUTE</div>
+                  <div className="text-zinc-200 font-semibold">{ui.scrollytelling.statCompute || "ESP32-S3 (TinyML)"}</div>
                 </div>
                 <div>
                   <div className="text-zinc-500">ACCURACY</div>
-                  <div className="text-emerald-400 font-semibold">94.2%</div>
+                  <div className="text-emerald-400 font-semibold">{ui.scrollytelling.statAccuracy || "> 85.0%"}</div>
                 </div>
               </div>
             </div>
